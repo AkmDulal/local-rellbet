@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "casino": "Jugar",
+    "explore": "Explorar",
+    "sport": "Deporte",
+    "menu": "Menú"
+  },
+  "pages": {
+    "home": { "title": "Página de inicio", "rowLabel": "Sección" },
+    "casino": { "title": "Página de juego", "rowLabel": "Sección" },
+    "explore": { "title": "Página de explorar", "rowLabel": "Sección" },
+    "sport": { "title": "Página de deporte", "rowLabel": "Sección" },
+    "menu": { "title": "Página del menú", "rowLabel": "Sección" }
+  }
+}

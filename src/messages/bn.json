@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "হোম",
+    "casino": "প্লে",
+    "explore": "এক্সপ্লোর",
+    "sport": "স্পোর্ট",
+    "menu": "মেনু"
+  },
+  "pages": {
+    "home": { "title": "হোম পেজ", "rowLabel": "সেকশন" },
+    "casino": { "title": "প্লে পেজ", "rowLabel": "সেকশন" },
+    "explore": { "title": "এক্সপ্লোর পেজ", "rowLabel": "সেকশন" },
+    "sport": { "title": "স্পোর্ট পেজ", "rowLabel": "সেকশন" },
+    "menu": { "title": "মেনু পেজ", "rowLabel": "সেকশন" }
+  }
+}

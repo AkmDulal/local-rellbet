@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --background: #1a2c38;
+  --foreground: #1a2c38;
+  
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-primary: #1a2c38;
+  --color-brand-secondary: #213744;
+  --color-brand-active: #0077FF;
+  --shadow-3xl: 0 35px 35px rgba(0,0,0,0.25);
+  --font-sans: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-mono: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+    --text-xs: .85rem;     
+  --text-xs--line-height: 1.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a2c38;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: #fff;
+}
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}

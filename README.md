@@ -22,6 +22,9 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Learn More
 
+
+├─ app/ │ ├─ [locale]/ │ │ ├─ layout.tsx # সব পেজে কমন Header + Footer + Intl Provider │ │ ├─ page.tsx # /[locale] থেকে /[locale]/home এ রিডাইরেক্ট │ │ ├─ home/ │ │ │ └─ page.tsx # 11 rows │ │ ├─ play/ │ │ │ └─ page.tsx # 5 rows │ │ ├─ explore/ │ │ │ └─ page.tsx # 9 rows │ │ ├─ sport/ │ │ │ └─ page.tsx # 3 rows │ │ └─ menu/ │ │ └─ page.tsx # 12 rows │ └─ globals.css ├─ components/ │ ├─ Header.tsx │ ├─ Footer.tsx │ ├─ LanguageSwitcher.tsx │ └─ Rows.tsx # যে কোনো পেজে N সংখ্যক “Row/Section” জেনারেট করার হেল্পার ├─ messages/ │ ├─ bn.json │ ├─ hi.json │ ├─ es.json │ ├─ fr.json │ ├─ de.json │ └─ pt.json ├─ i18n.ts ├─ middleware.ts └─ next.config.js
+
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
